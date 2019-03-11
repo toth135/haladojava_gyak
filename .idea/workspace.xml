@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e92db38-8a65-4693-a3e2-151a8c3733e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/logika-interface/target/" />
     <ignored path="$PROJECT_DIR$/object_mapper/target/" />
     <ignored path="$PROJECT_DIR$/Controller/target/" />
+    <ignored path="$PROJECT_DIR$/controller/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,103 +23,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kapcsolattarto/pom.xml">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logika-interface/logika-interface.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/CheckerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="24" selection-end-line="23" />
+            <state relative-caret-position="274">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/controller/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="-45" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hu/me/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="310">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -171,6 +109,12 @@
         <option value="$PROJECT_DIR$/Controller/src/main/java/hu/me/CheckerImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" />
+        <option value="$PROJECT_DIR$/controller/pom.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/hu/me/IsValid.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/hu/me/User.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/hu/me/Checker.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/hu/me/Main.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/hu/me/CheckerImpl.java" />
       </list>
     </option>
   </component>
@@ -216,6 +160,194 @@
               <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
               <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="logika-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="logika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logika_teszt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logika_teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +357,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551823362937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552347856430" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,6 +365,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/src/main/java/hu/me" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -283,7 +421,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hu.me.Main" />
-      <module name="Controller" />
+      <module name="controller" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/hu/me" />
       <extension name="coverage">
         <pattern>
@@ -319,8 +457,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.All in kapcsolattarto" />
         <item itemvalue="Application.App" />
       </list>
@@ -346,6 +484,10 @@
       <workItem from="1551803106275" duration="7850000" />
       <workItem from="1551816036350" duration="6589000" />
       <workItem from="1551824252872" duration="5454000" />
+      <workItem from="1551831268601" duration="267000" />
+      <workItem from="1552290384325" duration="3224000" />
+      <workItem from="1552315030878" duration="6446000" />
+      <workItem from="1552343368863" duration="4521000" />
     </task>
     <servers />
   </component>
@@ -355,12 +497,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65689000" />
+    <option name="totallyTimeSpent" value="80147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25984848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27727273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,8 +510,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32686085" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22330096" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32576984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22204214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +521,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32686085" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3241491" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/src/main/java/hu/me/CheckerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/Controller/src/main/java/hu/me/Main.java" />
     <entry file="file://$PROJECT_DIR$/Controller/src/main/java/hu/me/User.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -471,6 +612,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logika-interface/logika-interface.iml" />
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/src/main/java/hu/me/Main.java" />
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="110" column="53" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/App.java" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/IsValid.java" />
     <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/Hibakod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -478,37 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="24" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="55">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
@@ -527,9 +667,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hu/me/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="85">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -537,31 +705,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/pom.xml">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="310">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logika-interface/logika-interface.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/hu/me/CheckerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
