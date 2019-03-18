@@ -1,27 +1,32 @@
 package hu.me;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class Main
-{
+public class Main {
 
     public static void main(String[] args) {
 
+        UserService userService = new UserServiceImpl();
+        EmptyValidator emptyValidator = new EmptyValidator();
+        NoSpaceValidator noSpaceValidator = new NoSpaceValidator();
+        PasswordLengthValidator passwordLengthValidator = new PasswordLengthValidator();
+        UsernameLengthValidator usernameLengthValidator = new UsernameLengthValidator();
+        List<Checker> checkers = new ArrayList<>(4);
+        checkers.add(emptyValidator);
+        checkers.add(noSpaceValidator);
+        checkers.add(passwordLengthValidator);
+        checkers.add(usernameLengthValidator);
+        UserController userController = new UserController(userService, checkers);
         Scanner sc = new Scanner(System.in);
-        CheckerImpl checker = new CheckerImpl();
-        User user = new User();
+        ValidatorResponse validatorResponse = new ValidatorResponse();
 
-        System.out.println("Kérem adjon meg egy felhasználónevet: ");
-        user.setUsername(sc.next());
-
-        System.out.println("Kérem adjon meg egy jelszót: ");
-        user.setPassword(sc.next());
-
-        checker.save(user.getUsername(), user.getPassword());
+        System.out.print("Adjon meg egy felhasználónevet: ");
+        String username = sc.next();
+        System.out.print("Adjon meg egy jelszót: ");
+        String password = sc.next();
+        userController.createUser(username, password);
 
     }
 
