@@ -1,10 +1,17 @@
 package hu.me;
 
 import hu.me.logika.Calculator;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class KeresFeldolgozo {
 
+
     Calculator calculator;
+
+    @Autowired
+    public void setCalculator(Calculator calculator) {
+        this.calculator = calculator;
+    }
 
     public KeresFeldolgozo(Calculator calculator) {
         this.calculator = calculator;
@@ -19,7 +26,7 @@ public class KeresFeldolgozo {
 
         if("+".equals(input.getMuvelet())) {
             outputValues.setEredmeny(
-                    this.calculator.add(
+            this.calculator.add(
                             input.getOperandus1(),
                             input.getOperandus2()
                     )

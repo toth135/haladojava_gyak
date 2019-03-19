@@ -20,7 +20,6 @@ public class Main {
         checkers.add(usernameLengthValidator);
         UserController userController = new UserController(userService, checkers);
         Scanner sc = new Scanner(System.in);
-        ValidatorResponse validatorResponse = new ValidatorResponse();
 
         System.out.print("Adjon meg egy felhasználónevet: ");
         String username = sc.next();
