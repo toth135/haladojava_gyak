@@ -18,9 +18,8 @@ public class Main {
         checkers.add(noSpaceValidator);
         checkers.add(passwordLengthValidator);
         checkers.add(usernameLengthValidator);
-        UserController userController = new UserController(userService, checkers);
+        UserController userController = new UserController(userService, null);
         Scanner sc = new Scanner(System.in);
-        ValidatorResponse validatorResponse = new ValidatorResponse();
 
         System.out.print("Adjon meg egy felhasználónevet: ");
         String username = sc.next();
