@@ -2,6 +2,7 @@ package hu.me;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hu.me.logika.CalculatorImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,6 +20,7 @@ public class App implements CommandLineRunner {
 
     private KeresFeldolgozo keresFeldolgozo;
 
+    @Autowired
     public void setKeresFeldolgozo(KeresFeldolgozo keresFeldolgozo) {
         this.keresFeldolgozo = keresFeldolgozo;
     }
