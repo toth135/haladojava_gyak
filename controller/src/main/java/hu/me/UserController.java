@@ -13,14 +13,14 @@ public class UserController {
         this.checkers = checkers;
     }
 
-    private boolean validUser(User user) {
+    public boolean validUser(User user) {
         List<ValidatorResponse> errors = new LinkedList<>();
         for (Checker checker : checkers) {
             ValidatorResponse response = checker.valid(user);
             if (!response.isValid())
                 errors.add(response);
         }
-        if (errors.size() > 0) {
+        if (!errors.isEmpty()) {
             System.out.println("Number of errors: " + errors.size());
             errors.forEach(error -> System.out.println(error.getMessage()));
             return false;
