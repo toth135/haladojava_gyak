@@ -2,6 +2,10 @@ package hu.me;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hu.me.logika.CalculatorImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -10,14 +14,28 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App {
 
-    public static void main( String[] args ) {
+@SpringBootApplication
+public class App implements CommandLineRunner {
+
+    private KeresFeldolgozo keresFeldolgozo;
+
+    @Autowired
+    public void setKeresFeldolgozo(KeresFeldolgozo keresFeldolgozo) {
+        this.keresFeldolgozo = keresFeldolgozo;
+    }
+
+    public static void main(String[] args ) {
+
+        SpringApplication.run(App.class, args);
+
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
 
         ObjectMapper objectMapper = new ObjectMapper();
-        CalculatorImpl calc = new CalculatorImpl();
         Scanner sc = new Scanner(System.in);
-        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calc);
 
         String calcJson =
                 "{ \"muvelet\" : \"+\",  " +
