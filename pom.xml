@@ -18,6 +18,7 @@
     <module>logika-interface</module>
       <module>kapcsolattarto</module>
       <module>controller</module>
+    <module>SpringCalculator</module>
   </modules>
 
   <name>logika</name>
