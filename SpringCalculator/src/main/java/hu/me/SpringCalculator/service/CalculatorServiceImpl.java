@@ -1,6 +1,7 @@
 package hu.me.SpringCalculator.service;
 
 import hu.me.SpringCalculator.controller.dto.InputValues;
+import hu.me.SpringCalculator.exceptions.DivisionByZeroException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,7 @@ public class CalculatorServiceImpl implements CalculatorService {
     }
 
     @Override
-    public double calculate(InputValues inputValues) {
+    public double calculate(InputValues inputValues) throws DivisionByZeroException {
         double result = 0;
         switch (inputValues.getOperator()) {
             case "+":
@@ -36,6 +37,7 @@ public class CalculatorServiceImpl implements CalculatorService {
                 result = calculator.multiply(inputValues.getOperand1(), inputValues.getOperand2());
                 break;
             case "/":
+                if(inputValues.getOperand2() == 0.0) throw new DivisionByZeroException();
                 result = calculator.divide(inputValues.getOperand1(), inputValues.getOperand2());
                 break;
         }

@@ -1,6 +1,7 @@
 package hu.me.SpringCalculator.controller;
 
 import hu.me.SpringCalculator.controller.dto.InputValues;
+import hu.me.SpringCalculator.exceptions.DivisionByZeroException;
 import hu.me.SpringCalculator.service.CalculatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,12 +9,14 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @Controller
-@RequestMapping(path = "/")
+@RequestMapping(path = "/calculator")
 public class CalculatorController {
 
     CalculatorService calculatorService;
@@ -28,7 +31,7 @@ public class CalculatorController {
         ModelAndView modelAndView = new ModelAndView();
 
         modelAndView.setViewName("index");
-        modelAndView.addObject("inputValues", new InputValues("add",
+        modelAndView.addObject("inputValues", new InputValues("+",
                 0.0, 0.0));
         modelAndView.addObject("result", 0);
         modelAndView.addObject("details", "There are no details yet.");
@@ -45,7 +48,7 @@ public class CalculatorController {
         } else {
             try {
                 modelAndView.addObject("result", calculatorService.calculate(inputValues));
-            } catch (IllegalArgumentException e) {
+            } catch (DivisionByZeroException ex) {
                 bindingResult.addError(new FieldError("inputValues", "operand2",
                         "Nullaval nem lehet osztani"));
                 modelAndView.addObject("details", calculatorService.getDetails());
@@ -62,5 +65,13 @@ public class CalculatorController {
         }
         return modelAndView;
     }
+
+    @RequestMapping(method = RequestMethod.GET, path = "/details")
+    @ResponseBody
+    public List details() {
+        return calculatorService.getDetails();
+    }
+
+
 
 }
