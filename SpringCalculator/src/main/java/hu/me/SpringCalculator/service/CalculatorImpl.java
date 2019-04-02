@@ -1,7 +1,6 @@
-package hu.me.logika;
+package hu.me.SpringCalculator.service;
 
 import org.springframework.stereotype.Service;
-
 
 @Service
 public class CalculatorImpl implements Calculator {
@@ -26,6 +25,4 @@ public class CalculatorImpl implements Calculator {
 
         return a / b;
     }
-
 }
-
