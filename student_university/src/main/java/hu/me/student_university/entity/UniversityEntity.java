@@ -1,17 +1,21 @@
 package hu.me.student_university.entity;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
+@Entity
 public class UniversityEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String universityName;
     private String faculty;
     private String specialization;
+
+    @ManyToMany(mappedBy = "universityEntities")
+    private Set<StudentEntity> studentEntities;
 
     public  UniversityEntity() {
 

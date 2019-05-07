@@ -1,9 +1,6 @@
 package hu.me.student_university.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Set;
 
 @Entity
@@ -12,8 +9,16 @@ public class StudentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String name;
     private int age;
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "student_university", joinColumns = @JoinColumn(name = "student_id",
+            referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "university_id", referencedColumnName = "id"))
+    private Set<UniversityEntity> universityEntities;
+
 
     public StudentEntity() {
 
