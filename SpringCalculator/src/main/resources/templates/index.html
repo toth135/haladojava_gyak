@@ -10,30 +10,86 @@
     </style>
 </head>
 <body>
-
-    <form action="#" method="post", th:object="${inputValues}">
-        ELső szám: <input type="number" th:field="*{operand1}"
-                          th:class="${#fields.hasErrors('operand1')}? field-error">
-        <span th:if="${#fields.hasErrors('operand1')}" th:errors="*{operand1}">Hibás szám</span><br><br>
-
-        Művelet: <select th:field="*{operator}" th:class="${#fields.hasErrors('operator')}? field-error">
-                    <option th:value="'+'" th:text="'+'"></option>
-                    <option th:value="'-'" th:text="'-'"></option>
-                    <option th:value="'*'" th:text="'*'"></option>
-                    <option th:value="'/'" th:text="'/'"></option>
-                 </select>
-        <span th:if="${#fields.hasErrors('operator')}" th:errors="*{operator}">Kérem, adjon meg egy műveletet!</span><br><br>
-
-        Második szám: <input type="number" th:field="*{operand2}"
-                          th:class="${#fields.hasErrors('operand2')}? field-error">
-        <span th:if="${#fields.hasErrors('operand2')}" th:errors="*{operand2}">Hibás szám</span><br><br>
-
-        <input type="submit" value="Számol">
-
-        <span th:text="${result}"></span><br><br>
-
-        Elvégzett számítások : <span th:text="${details}"></span>
+<table>
+    <form action="#" method="post" th:object="${inputValues}">
+        <tr>
+            <td>
+                Operator:
+            </td>
+            <td>
+                <select style="width:100%" th:field="*{operator}" th:class="${#fields.hasErrors('operator')}? field-error">
+                    <option value="" selected >Operator</option>
+                    <option th:each="op : ${operator}" th:value="${op}" th:text="${op}"></option>
+                </select>
+            </td>
+            <td>
+                ID:
+            </td>
+            <td>
+                <input type="number" th:field="*{userId}" th:class="${#fields.hasErrors('userId')}? field-error" >
+            </td>
+        </tr>
+                <tr>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('operator')}" th:errors="*{operator}"></p>
+                    </td>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('userId')}" th:errors="*{userId}">Invalid user ID!</p>
+                    </td>
+                </tr>
+        <tr>
+            <td>
+                Number1:
+            </td>
+            <td>
+                <input type="number" th:field="*{operand1}" th:class="${#fields.hasErrors('operand1')}? field-error" >
+            </td>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input type="text" th:field="*{username}" th:class="${#fields.hasErrors('username')}? field-error" >
+            </td>
+        </tr>
+                <tr>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('operand1')}" th:errors="*{operand1}">Invalid first number!</p>
+                    </td>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Invalid username!</p>
+                    </td>
+                </tr>
+        <tr>
+            <td>
+                Number2:
+            </td>
+            <td>
+                <input type="number" th:field="*{operand2}" th:class="${#fields.hasErrors('operand2')}? field-error" >
+            </td>
+            <td>
+                User age:
+            </td>
+            <td>
+                <input type="number" th:field="*{age}" th:class="${#fields.hasErrors('age')}? field-error" >
+            </td>
+        </tr>
+                <tr>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('operand2')}" th:errors="*{operand2}">Invalid second number!</p>
+                    </td>
+                    <td colspan = "2">
+                        <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Invalid user age!</p>
+                    </td>
+                </tr>
+        <tr>
+            <td colspan = "2">
+                <input style="width:100%" type="submit" value="Calculate">
+            </td>
+        </tr>
     </form>
-
+</table>
+<br>Result: <span th:text="${result}"></span>
+<br>Details: <span th:text="${details}"></span>
+<br>User calculations: <span th:text="${userDetails}"></span>
 </body>
 </html>

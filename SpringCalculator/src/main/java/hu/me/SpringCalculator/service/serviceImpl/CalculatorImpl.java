@@ -1,5 +1,6 @@
-package hu.me.SpringCalculator.service;
+package hu.me.SpringCalculator.service.serviceImpl;
 
+import hu.me.SpringCalculator.service.Calculator;
 import org.springframework.stereotype.Service;
 
 @Service
