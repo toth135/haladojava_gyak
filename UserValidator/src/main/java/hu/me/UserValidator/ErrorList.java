@@ -1,0 +1,9 @@
+package hu.me.UserValidator;
+
+public enum ErrorList {
+    NO_ERROR,
+    USERNAME_IS_TOO_SHORT,
+    USERNAME_CONTAINS_WHITESPACE,
+    PASSWORD_IS_TOO_SHORT,
+    PASSWORD_CONTAINS_WHITESPACE
+}

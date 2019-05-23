@@ -1,4 +1,4 @@
-package hu.me;
+package hu.me.UserValidator;
 
 public interface Checker {
 

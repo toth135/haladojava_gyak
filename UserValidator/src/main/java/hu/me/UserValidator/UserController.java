@@ -1,6 +1,6 @@
-package hu.me;
+package hu.me.UserValidator;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserController {
@@ -14,14 +14,17 @@ public class UserController {
     }
 
     public boolean validUser(User user) {
-        List<ValidatorResponse> errors = new LinkedList<>();
+        if (checkers == null) {
+            return true;
+        }
+        List<ValidatorResponse> errors = new ArrayList<>();
         for (Checker checker : checkers) {
             ValidatorResponse response = checker.valid(user);
             if (!response.isValid())
                 errors.add(response);
         }
         if (!errors.isEmpty()) {
-            System.out.println("Number of errors: " + errors.size());
+            System.out.println("Hibák száma: " + errors.size());
             errors.forEach(error -> System.out.println(error.getMessage()));
             return false;
         } else {
@@ -31,9 +34,8 @@ public class UserController {
 
     public void createUser(String username, String password) {
         User user = new User(username, password);
-            if (validUser(user))
-                userService.saveUser(user);
-        }
-}
+        if (validUser(user))
+            userService.saveUser(user);
+    }
 
-//A validátort kapott paraméterrel hívták-e userregisztrálásnál, vagy usertípusú-e (tesztírás)
+}
