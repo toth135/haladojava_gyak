@@ -48,8 +48,7 @@ public class CalculatorController {
     @RequestMapping(method = RequestMethod.POST)
     public ModelAndView post(@Valid InputValues inputValues, BindingResult bindingResult) {
 
-        System.out.println(inputValues);
-        System.out.println(bindingResult);
+
 
         ModelAndView modelAndView = new ModelAndView();
 
